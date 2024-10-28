@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #a1c4fdc5, #c2e9fb5e),
+                url("https://mquanaazi.github.io/huluImages/eza taxi.png");
+    background-repeat: repeat-x;
+    /* background-size: cover; */
+    background-blend-mode: overlay; /* Blend the gradient and image */
+    opacity: 0.85; /* Reduce overall opacity for a softer effect */
+    animation: slideBackground 10s ease-in-out infinite;
+}
+
+@keyframes slideBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+
+header {
+    background: #02165055;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #05698425;
+    color:black;
+    font-size: 13px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.footer-icon:hover {
+    transform: scale(1.1);
+}
+
+img{
+    width: 250px;
+    height: 100px
+}

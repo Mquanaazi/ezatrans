@@ -1,7 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import './registerServiceWorker'
-import router from './router'
-import store from './store'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router'; // Adjusted to point to the new 'router' directory
 
-createApp(App).use(store).use(router).mount('#app')
+// Create and mount the root Vue instance
+createApp(App)
+  .use(router)
+  .mount('#app');
