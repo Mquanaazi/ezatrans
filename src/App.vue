@@ -2,14 +2,55 @@
     <div id="app">
         <header>
              <img src="https://mquanaazi.github.io/huluImages/eza express.png" alt="logo">
-            <nav>
+             <ul
+  class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm"
+  id="pillNav2"
+  role="tablist"
+  style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);"
+>
+  <li class="nav-item" role="presentation">
+    <router-link
+      to="/"
+      class="nav-link rounded-5"
+      :class="{ active: $route.path === '/' }"
+      id="home-tab2"
+      aria-selected="true"
+    >
+      Home
+    </router-link>
+  </li>
+  <li class="nav-item" role="presentation">
+    <router-link
+      to="/about"
+      class="nav-link rounded-5"
+      :class="{ active: $route.path === '/about' }"
+      id="profile-tab2"
+      aria-selected="false"
+    >
+      Profile
+    </router-link>
+  </li>
+  <li class="nav-item" role="presentation">
+    <router-link
+      to="/contact"
+      class="nav-link rounded-5"
+      :class="{ active: $route.path === '/contact' }"
+      id="contact-tab2"
+      aria-selected="false"
+    >
+      Contact
+    </router-link>
+  </li>
+</ul>
+
+            <!-- <nav>
                 <ul>
                     <li><router-link to="/">Home</router-link></li>
-                    <li><router-link to="/about">About Us</router-link></li>
-                    <li><router-link to="/services">Services</router-link></li>
+                    <li><router-link to="/about">profile</router-link></li>
                     <li><router-link to="/contact">Contact</router-link></li>
                 </ul>
-            </nav>
+                <li><router-link to="/services">Services</router-link></li>
+            </nav> -->
         </header>
         <main>
             <router-view></router-view>

@@ -9,6 +9,18 @@
         well as its internal quality assurance processes, ensure that all projects meet customer 
         requirements and specifications to perfection.
         </p>
+        <!-- <h3>Service</h3> -->
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                </button>
+                <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button">Shuttle Services</button></li>
+                    <li><button class="dropdown-item" type="button">Airport Transfers</button></li>
+                    <li><button class="dropdown-item" type="button">Tour arount cape peninsula</button></li>
+                    <li><button class="dropdown-item" type="button">Staff transportation</button></li>
+                </ul>
+            </div>
         <h3>Mission</h3>
         <p>Eza Xpress (PTY) LTD, is to be a fully operational business distinguished from the rest of the 
         competitors and accredited transport specialist. To promote skills development within the 
