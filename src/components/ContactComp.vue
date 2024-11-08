@@ -154,6 +154,7 @@ button[type="submit"] {
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-left: 40%;
 }
 
 button[type="submit"]:hover {
@@ -161,7 +162,7 @@ button[type="submit"]:hover {
 }
 
 .disabled-form {
-  margin-top: 20px;
+  margin-top: 55%;
   padding: 20px;
   border: 1px solid #cccccc25;
   border-radius: 10px;

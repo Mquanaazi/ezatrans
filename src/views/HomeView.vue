@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <h1>Welcome to Eza Xpress (PTY) LTD</h1>
+  <
+  <h1>WELCOME TO EZA EXPRESS (PTY) LTD</h1>
+    <div class="content">
         <HomeComp />
     </div>
 </template>
@@ -16,5 +17,9 @@ export default {
 
 
 <style scoped>
-/* Add styles specific to HomeView if needed */
+h1{
+  justify-content: center;
+  font-size: larger;
+  color: rgb(2, 2, 41);
+}
 </style>

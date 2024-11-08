@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>About Us</h1>
+      
         <AboutComp />
     </div>
 </template>
@@ -15,5 +15,8 @@ export default {
 </script>
 
 <style scoped>
-/* Add styles specific to AboutView if needed */
+h1{
+  justify-content: center;
+
+}
 </style>

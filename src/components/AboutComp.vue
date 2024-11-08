@@ -1,6 +1,33 @@
 <template>
     <div>
-        <h2>About Eza Xpress (PTY) LTD</h2>
+        <div class="headers">
+    <h2>About Eza Xpress (PTY) LTD</h2> 
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our<br>Services
+        </button>
+        <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Shuttle Services</button></li>
+            <li><button class="dropdown-item" type="button">Airport Transfers</button></li>
+            <li><button class="dropdown-item" type="button">Tour around Cape Peninsula</button></li>
+            <li><button class="dropdown-item" type="button">Staff transportation</button></li>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Chauffeur<br>Qualifications
+        </button>
+        <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Good health</button></li>
+            <li><button class="dropdown-item" type="button">An unendorsed driver’s license</button></li>
+            <li><button class="dropdown-item" type="button">Valid ID Document</button></li>
+            <li><button class="dropdown-item" type="button">Public Driver’s Permit (PDP)</button></li>
+            <li><button class="dropdown-item" type="button">No criminal record</button></li>
+            <li><button class="dropdown-item" type="button">Grade 10 as minimum education qualification</button></li>
+        </ul>
+    </div>
+</div>
+<div class="content">
         <p>Eza Xpress (PTY) LTD, is a Black Owned founded on 15 June 2021, by its sole Director Xola 
         Eza Mtwa. With his expertise in all spheres of Transport, Xola, from the onset steered EZA 
         XPRESS to successfully provide excellent services to various clients in the Western Cape area. 
@@ -10,17 +37,7 @@
         requirements and specifications to perfection.
         </p>
         <!-- <h3>Service</h3> -->
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Services
-                </button>
-                <ul class="dropdown-menu">
-                    <li><button class="dropdown-item" type="button">Shuttle Services</button></li>
-                    <li><button class="dropdown-item" type="button">Airport Transfers</button></li>
-                    <li><button class="dropdown-item" type="button">Tour arount cape peninsula</button></li>
-                    <li><button class="dropdown-item" type="button">Staff transportation</button></li>
-                </ul>
-            </div>
+          
         <h3>Mission</h3>
         <p>Eza Xpress (PTY) LTD, is to be a fully operational business distinguished from the rest of the 
         competitors and accredited transport specialist. To promote skills development within the 
@@ -46,6 +63,7 @@
         maintaining the environment it will natural give us opportunities to create jobs and to grow in the 
         market. </p>
     </div>
+    </div>
 </template>
 
 <script>
@@ -55,5 +73,25 @@ export default {
 </script>
 
 <style scoped>
-/* Add styles specific to AboutComp if needed */
+.headers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Centers items vertically */
+    gap: 0.3rem; /* Adds space between elements */
+    justify-content: center;
+}
+
+.headers h2 {
+    margin: 0;
+}
+ul{
+    background-color: rgb(185, 185, 232);
+    
+}
+.content{
+    /* background-color: rgb(183, 198, 210);
+    border-radius: 1% */
+    margin-top: 10px;
+}
+
 </style>

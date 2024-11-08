@@ -17,6 +17,7 @@
             <li>No criminal record</li>
             <li>Grade 10 as minimum education qualification</li>
         </ul>
+        
     </div>
 </template>
 
