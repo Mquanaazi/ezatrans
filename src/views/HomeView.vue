@@ -22,6 +22,7 @@ export default {
   justify-content: center;
   font-size: larger;
   color: rgb(2, 2, 41);
+ 
   
 }
 </style>

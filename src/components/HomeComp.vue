@@ -1,8 +1,26 @@
 <template>
     <content>
-        <div class="header">
-            <p>We set the standards others try to live up to!<br> Founded in 2021 by Xola Eza Mtwa, our company delivers safe, reliable,<br> and exciting journeys across the Western Cape. With skilled drivers and a passion for excellence, <br>we make each trip—whether local or long-distance—a comfortable, enjoyable experience. <br>Join Eza Xpress and see why our service is a cut above the rest!</p>
+                <div class="header">
+            <div class="flash-cards">
+                <div class="card">
+                    <h3>Our Motto</h3>
+                    <p>We set the standards others try to live up to!</p>
+                </div>
+                <div class="card">
+                    <h3>Our Founder</h3>
+                    <p>Founded in 2021 by Xola Eza Mtwa, our company delivers safe, reliable, and exciting journeys across the Western Cape.</p>
+                </div>
+                <div class="card">
+                    <h3>Our Service</h3>
+                    <p>With skilled drivers and a passion for excellence, we make each trip—whether local or long-distance—a comfortable, enjoyable experience.</p>
+                </div>
+                <div class="card">
+                    <h3>Why Choose Us?</h3>
+                    <p>Join Eza Xpress and see why our service is a cut above the rest!</p>
+                </div>
+            </div>
         </div>
+
         <div id="cube-container">
         <div id="cube">
             <div class="face front">
@@ -41,12 +59,49 @@ export default {
     height: 650px;
     
 }*/
-.header{
-    justify-content: center;
-    font-weight:bolder;
-    color: black;
-    margin-top: 5%;
-} 
+.header {
+    text-align: center;
+    padding: 20px;
+    /* background-color: #f5f5f5; */
+}
+
+.flash-cards {
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: linear-gradient(to bottom right, #ffffff, #e8e8e8);
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 300px;
+    text-align: left;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+}
+
  /* Container to center the cube */
 #cube-container {
     perspective: 1000px;
@@ -83,8 +138,9 @@ export default {
 }
 content{
     display: flex;
-    flex-direction: row;
-    margin-top: 8%;
+    flex-direction: column;
+    margin-top: 0%;
+    
 }
 
 /* Position each face */
