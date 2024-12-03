@@ -15,8 +15,5 @@ export default {
 </script>
 
 <style scoped>
-h1{
-  justify-content: center;
 
-}
 </style>

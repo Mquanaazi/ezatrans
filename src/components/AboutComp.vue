@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="ishloko">
         <div class="headers">
     <h2>About Eza Xpress (PTY) LTD</h2> 
     <div class="dropdown">
@@ -82,16 +82,22 @@ export default {
 }
 
 .headers h2 {
-    margin: 0;
+    margin-top: 23%;
+    margin-bottom: 2%;
 }
 ul{
     background-color: rgb(185, 185, 232);
+    /* justify-content: space-between; */
     
+}
+.dropdown{
+    justify-content: space-around;
 }
 .content{
     /* background-color: rgb(183, 198, 210);
     border-radius: 1% */
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
+
 
 </style>

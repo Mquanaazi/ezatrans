@@ -61,7 +61,7 @@ export default {
 }*/
 .header {
     text-align: center;
-    padding: 20px;
+    /* padding: 10px; */
     /* background-color: #f5f5f5; */
 }
 
@@ -71,14 +71,16 @@ export default {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     justify-items: center;
-    padding: 20px;
+    color:#060606;
+    padding: 10px;
 }
 
 .card {
-    background: linear-gradient(to bottom right, #ffffff, #e8e8e8);
+    background: linear-gradient(to bottom right, #bbb5f2, #b8d8d8);
     border: 2px solid #ccc;
     border-radius: 12px;
-    padding: 20px;
+    padding: 10px;
+    
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     max-width: 300px;
@@ -93,13 +95,13 @@ export default {
 .card h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #444;
+    color: #010101;
 }
 
 .card p {
     font-size: 1rem;
     line-height: 1.5;
-    color: #666;
+    color: #000000;
 }
 
  /* Container to center the cube */
@@ -140,6 +142,15 @@ content{
     display: flex;
     flex-direction: column;
     margin-top: 0%;
+/* 
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px;  
+  border-radius: 10px;
+  justify-items: center;  
+  align-items: start;
+  padding: 20px; */
+
     
 }
 

@@ -21,8 +21,11 @@ export default {
 .header{
   justify-content: center;
   font-size: larger;
+  /* justify-content: space-around; */
   color: rgb(2, 2, 41);
- 
   
+}
+h1{
+margin-top: 22%
 }
 </style>

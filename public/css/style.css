@@ -6,20 +6,46 @@ body {
     background: linear-gradient(135deg, #a1c4fdc5, #c2e9fb5e),
                 url("https://mquanaazi.github.io/huluImages/eza taxi.png");
     background-repeat: repeat-x;
-    /* background-size: cover; */
-    background-blend-mode: overlay; /* Blend the gradient and image */
-    opacity: 0.85; /* Reduce overall opacity for a softer effect */
+    /* background-size: cover;  */
+    background-blend-mode: overlay; 
+    opacity: 0.85; 
     animation: slideBackground 10s ease-in-out infinite;
 }
 
-@keyframes slideBackground {
+/* @keyframes slideBackground {
     0% {
         background-position: 0 0;
     }
     100% {
         background-position: 100% 0;
     }
+} */
+
+/* body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #a1c4fdc5, #c2e9fb5e),
+                url("https://mquanaazi.github.io/huluImages/eza taxi.png");
+    background-repeat: repeat-x; */
+    /* background-size: 120% auto;  */
+    /* background-blend-mode: overlay;  */
+    /* animation: slideBackground 10s ease-in-out infinite; */
+/* } */
+
+@keyframes slideBackground {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: -200% 0; /* Slide halfway */
+    }
+    100% {
+        background-position: 0 0; /* Smoothly return to the start */
+    }
 }
+
 
 
 header {

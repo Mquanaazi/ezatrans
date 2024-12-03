@@ -106,8 +106,6 @@ export default {
 
 <style>
 
-svg{
-    
-}
+
 
 </style>
