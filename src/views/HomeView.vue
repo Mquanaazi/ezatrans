@@ -25,7 +25,15 @@ export default {
   color: rgb(2, 2, 41);
   
 }
+
+
 h1{
-margin-top: 22%
+  margin-top: 5%
+}
+
+@media (max-width: 480px) {
+  h1{
+margin-top: 23%
+}
 }
 </style>

@@ -82,9 +82,29 @@ export default {
 }
 
 .headers h2 {
-    margin-top: 23%;
-    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 0%;
 }
+
+@media (max-width: 480px) {
+    .headers  h2{
+        margin-top: 16%;
+        margin-bottom: 0%;
+}
+}
+/* @media (max-width: 750px) {
+    .headers  h2{
+        margin-top: 28%;
+        margin-bottom: 2%;
+} 
+}*/
+@media (max-width: 1250px) {
+    .headers  h2{
+        margin-top: 10%;
+        margin-bottom: 0%;
+}
+}
+
 ul{
     background-color: rgb(185, 185, 232);
     /* justify-content: space-between; */
@@ -98,6 +118,8 @@ ul{
     border-radius: 1% */
     /* margin-top: 10px; */
 }
+
+
 
 
 </style>

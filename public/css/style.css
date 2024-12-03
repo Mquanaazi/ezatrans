@@ -9,7 +9,7 @@ body {
     /* background-size: cover;  */
     background-blend-mode: overlay; 
     opacity: 0.85; 
-    animation: slideBackground 10s ease-in-out infinite;
+    animation: slideBackground 25s ease-in-out infinite;
 }
 
 /* @keyframes slideBackground {
@@ -82,12 +82,13 @@ main {
 
 footer {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background: #05698425;
     color:black;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .footer-icons {
@@ -109,3 +110,16 @@ img{
     width: 250px;
     height: 100px
 }
+@media (max-width: 768px) {
+    .contact-page {
+      padding: 20px;
+      border-radius: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .disabled-form {
+      margin-top: 10px;
+      padding: 15px;
+    }
+  }
